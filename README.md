@@ -12,8 +12,8 @@ This project use steganography library from https://github.com/aagarwal1012/Imag
 
 User interface app encode:
 <br>
-<img src="https://github.com/v1ncenalv1n/Steganography-Android-App/blob/master/Image/Hnet-image1.gif" width="250" height="400" />
+<img src="https://github.com/v1ncenalv1n/Steganography-Android-App/blob/master/Image/Hnet-image1.gif" width="300" height="600" />
 
 User interface app decode:
 <br>
-<img src="https://github.com/v1ncenalv1n/Steganography-Android-App/blob/master/Image/Hnet-image.gif" width="250" height="400" />
+<img src="https://github.com/v1ncenalv1n/Steganography-Android-App/blob/master/Image/Hnet-image.gif" width="300" height="600" />
