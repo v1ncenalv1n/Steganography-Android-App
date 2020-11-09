@@ -11,7 +11,9 @@ Include in app:
 This project use steganography library from https://github.com/aagarwal1012/Image-Steganography-Library-Android
 
 User interface app encode:
-![](Image/Hnet-image (1).gif)
+<br>
+![](Image/Hnet-image1.gif)
 
 User interface app decode:
+<br>
 ![](Image/Hnet-image.gif)
