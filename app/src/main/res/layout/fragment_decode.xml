@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.EncodeFragment">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image_decode"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="@android:color/black"/>
+            <Button
+                android:id="@+id/button_openimage_decode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_decode"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Choose Image"/>
+            <EditText
+                android:inputType="numberPassword"
+                android:id="@+id/edittext_key_decode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_openimage_decode"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="10dp"
+                android:hint="Input Secret Key"/>
+            <TextView
+                android:inputType="text"
+                android:id="@+id/edittext_message_decode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_below="@+id/edittext_key_decode"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="15dp"
+                android:hint="Message" />
+            <Button
+                android:id="@+id/button_decode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edittext_message_decode"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Decode" />
+            </RelativeLayout>
+        </ScrollView>
+</FrameLayout>
